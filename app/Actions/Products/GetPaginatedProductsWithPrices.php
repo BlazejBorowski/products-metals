@@ -13,7 +13,7 @@ class GetPaginatedProductsWithPrices
 
     public function execute(): mixed
     {
-        $metalPrices = $this->metalPriceService->cachedGetPrices();
+        $metalPrices = $this->metalPriceService->getCachedPrices();
 
         $products = Product::paginate(10);
 

@@ -22,7 +22,7 @@ class FakeMetalPriceService implements MetalPriceServiceInterface
         ];
     }
 
-    public function cachedGetPrices(): array
+    public function getCachedPrices(): array
     {
         return Cache::remember('metal_prices', 5, function () {
             return $this->getPrices();
