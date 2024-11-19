@@ -15,7 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-
+        $this->app->bind(
+            MetalPriceServiceInterface::class,
+            App::environment('local') ? FakeMetalPriceService::class : RealMetalPriceService::class
+        );
     }
 
     /**
