@@ -7,7 +7,7 @@
 
 ## Uruchomienie:
 
-1. Skopiuj .env.example do .env
+1. skopiuj .env.example do .env
 2. composer install
 3. npm install
 4. php artisan key:generate
