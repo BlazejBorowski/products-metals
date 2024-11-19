@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    font-family: "Poppins", sans-serif;
+    // background: red;
+}
+
+.table td, .table th {
+    text-align: start;
+}
