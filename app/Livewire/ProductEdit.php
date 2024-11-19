@@ -23,7 +23,7 @@ class ProductEdit extends Component
         $this->weight = $product->weight;
         $this->change_percent = $product->change_percent;
 
-        $this->metalPrices = $metalPriceService->cachedGetPrices();
+        $this->metalPrices = $metalPriceService->getCachedPrices();
         $this->calculateFinalPrice();
     }
 

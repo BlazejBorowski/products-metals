@@ -8,5 +8,5 @@ interface MetalPriceServiceInterface
 {
     public function getPrices(): array;
 
-    public function cachedGetPrices(): array;
+    public function GetCachedPrices(): array;
 }

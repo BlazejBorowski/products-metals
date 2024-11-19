@@ -20,13 +20,13 @@ trait ProductFormTrait
 
     public function mount(MetalPriceServiceInterface $metalPriceService): void
     {
-        $this->metalPrices = $metalPriceService->cachedGetPrices();
+        $this->metalPrices = $metalPriceService->getCachedPrices();
         $this->calculateFinalPrice();
     }
 
     public function loadMetalPrices(MetalPriceServiceInterface $metalPriceService): void
     {
-        $this->metalPrices = $metalPriceService->cachedGetPrices();
+        $this->metalPrices = $metalPriceService->getCachedPrices();
         $this->calculateFinalPrice();
     }
 
