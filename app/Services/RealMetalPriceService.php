@@ -13,7 +13,7 @@ class RealMetalPriceService implements MetalPriceServiceInterface
         throw new \Exception('Not implemented');
     }
 
-    public function GetCachedPrices(): array
+    public function getCachedPrices(): array
     {
         throw new \Exception('Not implemented');
     }
