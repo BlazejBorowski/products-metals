@@ -12,4 +12,4 @@
 3. npm install
 4. php artisan key:generate
 5. php artisan migrate:fresh -seed
-6. composer run dev
+6. composer run dev lub php artisan serve
