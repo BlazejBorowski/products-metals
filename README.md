@@ -13,3 +13,10 @@
 4. php artisan key:generate
 5. php artisan migrate:fresh -seed
 6. composer run dev lub php artisan serve
+
+
+### TODO:
+- napisać testy
+- dodać tłuamczenia
+- naprawić błędy
+- wyłączyć route register
